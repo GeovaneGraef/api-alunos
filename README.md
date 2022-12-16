@@ -34,8 +34,8 @@ The Lumen framework is open-sourced software licensed under the [MIT license](ht
 ## Estrutra do projeto
 
 Utilizei um simples MVC (poderia ter utilizado design pattern, injeção de dependência mas ficaria complexo), ficando da seguinte maneira:
-> A requisição chega através das rotas (routes/web.php)
-> Após são envidas para os controllers (app\http\controllers) que tratam as requisições
-> Temos a Service que é responsável pelas regras negócio (não fiz nada, não sabia o que tu ia utilizar ahehauehuaheuhaeuha) 
-> Temos também a Repository que é a responsavel pela parte do banco (CRUD), criei o crud do Aluno e só o insert das Notas, depois tu altera como tu quiser
-> API não tem autenticação
+1) A requisição chega através das rotas (routes/web.php)
+2) Após são envidas para os controllers (app\http\controllers) que tratam as requisições
+3) Temos a Service que é responsável pelas regras negócio (não fiz nada, não sabia o que tu ia utilizar ahehauehuaheuhaeuha) 
+4) Temos também a Repository que é a responsavel pela parte do banco (CRUD), criei o crud do Aluno e só o insert das Notas, depois tu altera como tu quiser
+5) API não tem autenticação
