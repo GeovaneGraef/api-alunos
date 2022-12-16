@@ -22,3 +22,20 @@ If you discover a security vulnerability within Lumen, please send an e-mail to 
 ## License
 
 The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Configuração
+
+1) Primeiramente instalar o XAMPP na última versão disponível (PHP, APACHE e MYSQL)
+2) Abrir o Xampp Panel e startuar o Apache o MYSQL
+3) Clonar o repositório na pasta htdocs (c:\xampp\htdocs)
+4) Abrir a URL http://localhost/phpmyadmin e importar o .SQL (banco de dados da aplicação)
+5) Importar a collection para dentro do Postman e realizar as chamadas \o/
+
+## Estrutra do projeto
+
+Utilizei um simples MVC (poderia ter utilizado design pattern, injeção de dependência mas ficaria complexo), ficando da seguinte maneira:
+> A requisição chega através das rotas (routes/web.php)
+> Após são envidas para os controllers (app\http\controllers) que tratam as requisições
+> Temos a Service que é responsável pelas regras negócio (não fiz nada, não sabia o que tu ia utilizar ahehauehuaheuhaeuha) 
+> Temos também a Repository que é a responsavel pela parte do banco (CRUD), criei o crud do Aluno e só o insert das Notas, depois tu altera como tu quiser
+> API não tem autenticação
