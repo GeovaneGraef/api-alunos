@@ -27,8 +27,8 @@ The Lumen framework is open-sourced software licensed under the [MIT license](ht
 
 1) Primeiramente instalar o XAMPP na última versão disponível (PHP, APACHE e MYSQL)
 2) Abrir o Xampp Panel e startuar o Apache o MYSQL
-3) Clonar o repositório na pasta htdocs (c:\xampp\htdocs)
-4) Abrir a URL http://localhost/phpmyadmin e importar o .SQL (banco de dados da aplicação)
+3) Clonar o repositório na pasta htdocs (c:\xampp\htdocs), tem o arquivo api-alunos.zip (que fica mais fácil pra ti)
+4) Abrir a URL http://localhost/phpmyadmin e importar o .SQL (alunos_db.sql banco de dados da aplicação, está dentro do arquivo api-alunos-zip)
 5) Importar a collection para dentro do Postman e realizar as chamadas \o/
 
 ## Estrutra do projeto
